@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local virtual/runtime environments
+venv/
+venv2/
+python310/
+ENV/
+env/
+
+# Local secrets
+config.py
+!config.example.py
+
+# Large binaries and installers
+ffmpeg.exe
+ffprobe.exe
+python_installer.exe
+
+# Generated subtitle/video artifacts
+*_temp.ass
+*_gui_burn.ass
+*_audio.wav
+*_burned.mp4
+*_translated.mp4
+*.tmp
+*.temp
+
+# Test media and generated subtitles
+testVideo/*.mp4
+testVideo/*.srt
+!testVideo/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
