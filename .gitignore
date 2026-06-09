@@ -29,8 +29,8 @@ python_installer.exe
 *.temp
 
 # Test media and generated subtitles
-testVideo/*.mp4
-testVideo/*.srt
+!testVideo/*.mp4
+!testVideo/*.srt
 !testVideo/.gitkeep
 
 # IDE and OS files
